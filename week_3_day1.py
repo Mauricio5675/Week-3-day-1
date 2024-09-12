@@ -47,40 +47,40 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age = 17 #integer variable
-# 2. name
-name = "Mauricio" #String variable
-# 3. song
-song = "Happy Birthday" #string variable
-# 4. food
-food = "bananas"
-# 5. number
-number = 2342
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = 17 #integer variable
+# # 2. name
+# name = "Mauricio" #String variable
+# # 3. song
+# song = "Happy Birthday" #string variable
+# # 4. food
+# food = "bananas"
+# # 5. number
+# number = 2342
 
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print ("Once upon a time, there was a " + str(age) + " year old coder named " + name + ".")
-print("There was a number" + str(number) + "as well")
-#put age and number in sentence
-print("He was " + str(age) + " years old" + " and liked the number " + str(number) + ".")
-date_of_birth = 2021
-number2 = 123
-number3 = 123.456
-number4 = 123.33
-number5 = 4555
+# # Once upon a time, there was a [age] old coder named [name].
+# print ("Once upon a time, there was a " + str(age) + " year old coder named " + name + ".")
+# print("There was a number" + str(number) + "as well")
+# #put age and number in sentence
+# print("He was " + str(age) + " years old" + " and liked the number " + str(number) + ".")
+# date_of_birth = 2021
+# number2 = 123
+# number3 = 123.456
+# number4 = 123.33
+# number5 = 4555
 
-print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
+# print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# ##########################################################################################
 
 
 
@@ -181,20 +181,35 @@ print(f"{name} liked to hum the song {song} while coding. It was so annoying tha
 
 ##########################################################################################
 # #addition
-# #multiplication
-# #division
-# #modulo
-# #powers
-# #get the max and min of a number
-# #round a number
-# # absolute value
-# # order of operations
-# #to do more you need to import special math libraries from python
-# #from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
+# print(2+1)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(6/2)
+# # #modulo
+# print(7%4) #remainder of 7 divided by 4
+# # #powers
+# print(2**3)
+# # #get the max and min of a number
+# print("the max of 2 and 3 is",max(2,3))
+# print("the min of 2 and 3 is",min(2,3))
+# # #round a number
+# print("round 3.9 is", round(3.9))
+# # # absolute value
+# print("the absolue value of -3 is",abs(-3))
+# # # order of operations
+# print("2+10*10+3 is",2 +10*10+3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print("the floor of 3.7 is",floor(3.7))
+# print("the floor of 5.2 is",floor(5.2))
+# # #ceil method
+# print("the ceil of 3.7 is ",ceil(3.7))
+# print("the ceil of 4.3 is ",ceil(4.3))
+# # #sqrt method
+
 
 
 
@@ -214,14 +229,25 @@ print(f"{name} liked to hum the song {song} while coding. It was so annoying tha
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("what is your name?")
+print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int(input("enter a number:"))
+num2 = int(input("enter another number:"))
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1 * num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
+print(round(num1))
+
+
 
 
 
