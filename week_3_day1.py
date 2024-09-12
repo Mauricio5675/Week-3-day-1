@@ -200,7 +200,7 @@
 # # # order of operations
 # print("2+10*10+3 is",2 +10*10+3)
 # # #to do more you need to import special math libraries from python
-# from math import *    
+#from math import *    
 # # #this goes out and grabs some different math functions we can use
 # # #floor method
 # print("the floor of 3.7 is",floor(3.7))
@@ -229,26 +229,35 @@
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
-name = input("what is your name?")
-print("hello",name)
-# # basic math calculator
-# #ask the user for 2 numbers
-num1 = int(input("enter a number:"))
+# name = input("what is your name?")
+# print("hello",name)
+# # # basic math calculator
+# # #ask the user for 2 numbers
+# num1 = int(input("enter a number:"))
+# num2 = int(input("enter another number:"))
+# # # print out a statement where you:
+# # # add them together
+# print(num1 + num2)
+# # #multiply
+# print(num1 * num2)
+# # # find the max number
+# print(max(num1,num2))
+# # # find the remainder of the numbers
+# print(num1%num2)
+# # #round one number
+# print(round(num1))
+
+
+num1 = int(input("Pick a number:"))
 num2 = int(input("enter another number:"))
-# # print out a statement where you:
-# # add them together
-print(num1 + num2)
-# #multiply
-print(num1 * num2)
-# # find the max number
-print(max(num1,num2))
-# # find the remainder of the numbers
-print(num1%num2)
-# #round one number
-print(round(num1))
-
-
-
+print(num1 - num2)
+print(num1/num2)
+print(min(num1,num2))
+print(abs(num2))
+from math import *
+print(floor(num1))
+print(ceil(num1))
+print(sqrt(num1))
 
 
 
